@@ -220,7 +220,7 @@
 
 /* Mobile Styles */
 
-@media (max-width: 767px) {
+@media (max-width: 867px) {
   .header__container {
     flex-direction: column;
     padding: 20px 0 0;
@@ -247,7 +247,7 @@
   .header__language-switcher.open {
     display: block;
     position: absolute;
-    top: 145px;
+    top: 75px;
     left: 0;
     right: 0;
     height: calc(100vh - 115px);
@@ -294,6 +294,10 @@
     font-weight: 600;
     font-size: 26px;
     text-transform: uppercase;
+  }
+
+  .header__column {
+    position: relative;
   }
 
   .header__row-1 {

@@ -67,25 +67,5 @@
     "name": "description",
     "label": "Product description",
     "default": "For teams that need additional security, control, and support."
-  },
-  {
-    "id": "field-9",
-    "type": "color",
-    "name": "button_bg",
-    "label": "Button background color",
-    "default": {
-      "color": "#494a52",
-      "opacity": 100
-    }
-  },
-  {
-    "id": "field-10",
-    "type": "color",
-    "name": "button_text_color",
-    "label": "Button text color",
-    "default": {
-      "color": "#ffffff",
-      "opacity": 100
-    }
   }
 ]

@@ -31,14 +31,14 @@
 				"load_external_fonts": true,
 				"visibility": {
 					"hidden_subfields": {
-						"size": true,
-						"styles": true
+						"size": true
 					}
 				},
 				"default": {
 					"color": "#494a52",
 					"font": "Merriweather",
-					"font_set": "GOOGLE"
+					"font_set": "GOOGLE",
+					"variant":"700"
 				}
 			},
       {

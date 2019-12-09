@@ -10,7 +10,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-family: {{ secondary_font_family }};
+  font-family: {{ get_theme_style_setting('typography.body_font.font') }};
   font-size: 40vw;
   font-weight: bold;
   color: #F3F6F9;
@@ -47,9 +47,9 @@ ul.hs-search-results__listing li {
   margin-bottom: 2rem;
 }
 .hs-search-results__title {
-  font-family: {{ headings_font_family }};
+  font-family: {{ get_theme_style_setting('typography.heading_font.font') }};
   font-size: 1.25rem;
-  color: {{ body_color }};
+  color: {{ get_theme_style_setting('typography.body_font.color') }};
   text-decoration: underline;
   margin-bottom: .25rem;
 }
@@ -63,5 +63,5 @@ ul.hs-search-results__listing li {
   font-weight: bold;
 }
 .hs-search-results__pagination a {
-  color: {{ body_color }};
+  color: {{ get_theme_style_setting('typography.body_font.color') }};
 }

@@ -6,7 +6,7 @@
   padding: 1rem;
 }
 .footer__copyright {
-  font-family: {{ secondary_font_family }};
+  font-family: {{ get_theme_style_setting('typography.body_font.font') }};
   font-size: .7rem;
   margin: .5rem 0;
 }

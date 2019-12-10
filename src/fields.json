@@ -1,116 +1,116 @@
 [
-	{
-		"type": "group",
-		"name": "typography",
-		"label": "Typography",
-		"children": [
-			{
-				"type": "font",
-				"name": "body_font",
-				"label": "Body text",
-				"load_external_fonts": true,
-				"visibility": {
-					"hidden_subfields": {
-						"styles": true
-					}
-				},
-				"default": {
-					"color": "#494a52",
-					"font": "Lato",
-					"font_set": "GOOGLE",
-					"size": {
-						"units": "px",
-						"value": 24
-					}
-				}
-			},
-			{
-				"type": "font",
-				"name": "heading_font",
-				"label": "Headings",
-				"load_external_fonts": true,
-				"visibility": {
-					"hidden_subfields": {
-						"size": true
-					}
-				},
-				"default": {
-					"color": "#494a52",
-					"font": "Merriweather",
-					"font_set": "GOOGLE",
-					"variant":"700"
-				}
-			},
+  {
+    "type": "group",
+    "name": "typography",
+    "label": "Typography",
+    "children": [
       {
-				"type": "color",
-				"name": "link_color",
-				"label": "Link color",
-				"default": {
-					"color": "#0270E0",
-					"opacity": 100
-				}
-			},
-			{
-				"type": "color",
-				"name": "link_hover_color",
-				"label": "Link hover color",
-				"default": {
-					"color": "#0270E0",
-					"opacity": 100
-				}
-			}
-		]
-	},
-	{
-		"type": "group",
-		"name": "buttons",
-		"label": "Buttons",
-		"children": [
-			{
-				"type": "color",
-				"name": "button_bg_color",
-				"label": "Button background color",
-				"default": {
-					"color": "#494a52",
-					"opacity": 100
-				}
-			},
-			{
-				"type": "color",
-				"name": "button_text_color",
-				"label": "Button text color",
-				"default": {
-					"color": "#ffffff",
-					"opacity": 100
-				}
+        "type": "font",
+        "name": "body_font",
+        "label": "Body text",
+        "load_external_fonts": true,
+        "visibility": {
+          "hidden_subfields": {
+            "styles": true
+          }
+        },
+        "default": {
+          "color": "#494A52",
+          "font": "Lato",
+          "font_set": "GOOGLE",
+          "size": {
+            "units": "px",
+            "value": 24
+          }
+        }
       },
       {
-				"type": "color",
-				"name": "button_bg_hover_color",
-				"label": "Button background hover color",
-				"default": {
-					"color": "#21222a",
-					"opacity": 100
-				}
-			},
-			{
-				"type": "color",
-				"name": "button_text_hover_color",
-				"label": "Button text hover color",
-				"default": {
-					"color": "#ffffff",
-					"opacity": 100
-				}
-			},
-			{
-				"type": "number",
-				"name": "button_border_radius",
-				"label": "Button corner radius",
-				"display": "slider",
-				"default": 6,
-				"min": 0,
-				"max": 100
-			}
-		]
-	}
+        "type": "font",
+        "name": "heading_font",
+        "label": "Headings",
+        "load_external_fonts": true,
+        "visibility": {
+          "hidden_subfields": {
+            "size": true
+          }
+        },
+        "default": {
+          "color": "#494A52",
+          "font": "Merriweather",
+          "font_set": "GOOGLE",
+          "variant": "700"
+        }
+      },
+      {
+        "type": "color",
+        "name": "link_color",
+        "label": "Link color",
+        "default": {
+          "color": "#0270E0",
+          "opacity": 100
+        }
+      },
+      {
+        "type": "color",
+        "name": "link_hover_color",
+        "label": "Link hover color",
+        "default": {
+          "color": "#0270E0",
+          "opacity": 100
+        }
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "name": "buttons",
+    "label": "Buttons",
+    "children": [
+      {
+        "type": "color",
+        "name": "button_bg_color",
+        "label": "Button background color",
+        "default": {
+          "color": "#494A52",
+          "opacity": 100
+        }
+      },
+      {
+        "type": "color",
+        "name": "button_text_color",
+        "label": "Button text color",
+        "default": {
+          "color": "#FFFFFF",
+          "opacity": 100
+        }
+      },
+      {
+        "type": "color",
+        "name": "button_bg_hover_color",
+        "label": "Button background hover color",
+        "default": {
+          "color": "#21222A",
+          "opacity": 100
+        }
+      },
+      {
+        "type": "color",
+        "name": "button_text_hover_color",
+        "label": "Button text hover color",
+        "default": {
+          "color": "#FFFFFF",
+          "opacity": 100
+        }
+      },
+      {
+        "type": "number",
+        "name": "button_border_radius",
+        "label": "Button corner radius",
+        "display": "slider",
+        "default": 6,
+        "min": 0,
+        "max": 100
+      }
+    ]
+  }
 ]

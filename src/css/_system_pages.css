@@ -54,6 +54,7 @@ ul.hs-search-results__listing li {
   margin-bottom: .25rem;
 }
 .hs-search-results__title:hover {
+  color: {{ get_theme_style_setting('typography.body_font.color') }};
   text-decoration: none;
 }
 .hs-search-results__description {

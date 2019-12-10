@@ -30,6 +30,7 @@ form {
   border-color: {{ get_theme_style_setting('buttons.button_bg_hover_color.color') }};
 {# see "no form selected" note above #}
   color: {{ get_theme_style_setting('buttons.button_text_hover_color.color') }};
+  text-decoration: none;
 }
 
 .hs-form label {

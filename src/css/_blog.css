@@ -265,6 +265,7 @@
   }
 }
 .blog-recent-posts__post:hover {
+  color: {{ get_theme_style_setting('typography.body_font.color') }};
   text-decoration: none;
 }
 .blog-recent-posts__image {

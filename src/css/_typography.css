@@ -1,27 +1,27 @@
 html {
-  font-size: {{ get_theme_style_setting('typography.body_font.size.value', 'typography.body_font.size.units') }};
+  font-size: {{ theme.typography.body_font.size.value }}{{ theme.typography.body_font.size.units }};
 }
 
 body {
-  font-family: {{ get_theme_style_setting('typography.body_font.font') }};
-  font-size: {{ get_theme_style_setting('typography.body_font.size.value', 'typography.body_font.size.units') }};
-  color: {{ get_theme_style_setting('typography.body_font.color') }};
+  font-family: {{ theme.typography.body_font.font }};
+  font-size: {{ theme.typography.body_font.size.value }}{{ theme.typography.body_font.size.units }};
+  color: {{ theme.typography.body_font.color }};
   line-height: 1.75;
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: {{ get_theme_style_setting('typography.body_font.font') }};
+  font-family: {{ theme.typography.body_font.font }};
 }
 
 /* Anchor Links */
 a {
-  color: {{ get_theme_style_setting('typography.link_color.color') }};
+  color: {{ theme.typography.link_color.color }};
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: {{ get_theme_style_setting('typography.link_hover_color.color') }};
+  color: {{ theme.typography.link_hover_color.color }};
   text-decoration: underline;
 }
 
@@ -35,11 +35,11 @@ h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   line-height: 1.2;
-  font-style: {{ get_theme_style_setting('typography.heading_font.styles.font-style') }};
-  font-weight: {{ get_theme_style_setting('typography.heading_font.styles.font-weight') }};
-  font-family: {{ get_theme_style_setting('typography.heading_font.font') }};
-  color: {{ get_theme_style_setting('typography.heading_font.color') }};
-  text-decoration: {{ get_theme_style_setting('typography.heading_font.styles.text-decoration') }};
+  font-style: {{ theme.typography.heading_font.styles.font-style }};
+  font-weight: {{ theme.typography.heading_font.styles.font-weight }};
+  font-family: {{ theme.typography.heading_font.font }};
+  color: {{ theme.typography.heading_font.color }};
+  text-decoration: {{ theme.typography.heading_font.styles.text-decoration }};
   word-break: break-word;
 }
 

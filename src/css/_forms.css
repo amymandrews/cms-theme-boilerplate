@@ -1,6 +1,6 @@
 form {
   max-width: {{ form_max_width }};
-  font-family: {{ get_theme_style_setting('typography.body_font.font') }};
+  font-family: {{ theme.typography.body_font.font }};
 }
 
 .hs-button {
@@ -12,10 +12,10 @@ form {
   position: relative;
   text-align: center;
   transition: all 0.15s linear;
-  background-color: {{ get_theme_style_setting('buttons.button_bg_color.color') }};
-  border-color: {{ get_theme_style_setting('buttons.button_bg_color.color') }};
-  color: {{ get_theme_style_setting('buttons.button_text_color.color') }};
-  border-radius: {{ get_theme_style_setting('buttons.button_border_radius', 'px') }};;
+  background-color: {{ theme.buttons.button_bg_color.color }};
+  border-color: {{ theme.buttons.button_bg_color.color }};
+  color: {{ theme.buttons.button_text_color.color }};
+  border-radius: {{ theme.buttons.button_border_radius }}px;
   border-style: solid;
   border-width: 1px;
   font-size: .92rem;
@@ -26,10 +26,10 @@ form {
 }
 
 .hs-button:hover, .hs-button:focus, .hs-button:active {
-  background-color: {{ get_theme_style_setting('buttons.button_bg_hover_color.color') }};
-  border-color: {{ get_theme_style_setting('buttons.button_bg_hover_color.color') }};
+  background-color: {{ theme.buttons.button_bg_hover_color.color }};
+  border-color: {{ theme.buttons.button_bg_hover_color.color }};
 {# see "no form selected" note above #}
-  color: {{ get_theme_style_setting('buttons.button_text_hover_color.color') }};
+  color: {{ theme.buttons.button_text_hover_color.color }};
   text-decoration: none;
 }
 
@@ -192,8 +192,8 @@ ul.no-list {
 .hs-richtext {
   margin-bottom: 3px;
   line-height: 1.2;
-  font-size: {{ get_theme_style_setting('typography.body_font.size.value', 'typography.body_font.size.units') }};
-  color: {{ get_theme_style_setting('typography.body_font.color') }};
+  font-size: {{ theme.typography.body_font.size.value }}{{ theme.typography.body_font.size.units }};
+  color: {{ theme.typography.body_font.color }};
 }
 .hs-richtext hr {
   text-align: left;
@@ -254,5 +254,5 @@ ul.no-list {
 
 .hs-default-font-element,
 .hs-main-font-element {
-  font-family: {{ get_theme_style_setting('typography.body_font.font') }};
+  font-family: {{ theme.typography.body_font.font }};
 }

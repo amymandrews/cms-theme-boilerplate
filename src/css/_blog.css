@@ -231,10 +231,14 @@
   width: 15px;
   height: auto;
   margin-right: 10px;
+  fill: {{ theme.typography.body_font.color }};
 }
-.blog-post__tag-link {
+.blog-post__tag-link,
+.blog-post__tag-link:hover,
+.blog-post__tag-link:focus,
+.blog-post__tag-link:active {
   font-size: .8rem;
-  color: #000;
+  color: {{ theme.typography.body_font.color }};
 }
 
 .blog-recent-posts {
@@ -264,7 +268,9 @@
     flex:  0 0 calc(100%/3);
   }
 }
-.blog-recent-posts__post:hover {
+.blog-recent-posts__post:hover,
+.blog-recent-posts__post:focus,
+.blog-recent-posts__post:active {
   color: {{ theme.typography.body_font.color }};
   text-decoration: none;
 }
@@ -288,19 +294,14 @@
 .blog-comments .hs-submit {
   text-align: center;
 }
-.blog-comments .hs-button {
-  background-color: {{ theme.buttons.button_bg_color.color }};
-  color: {{ theme.buttons.button_text_color.color }};
-}
-.blog-comments .hs-button:hover {
-  background-color: {{ theme.buttons.button_bg_hover_color.color }};
-  color: {{ theme.buttons.button_text_hover_color.color }};
-}
 .blog-comments .comment-reply-to {
   border: 0 none;
+  color: {{ theme.typography.body_font.color }};
 }
-.blog-comments .comment-reply-to:hover {
+.blog-comments .comment-reply-to:hover,
+.blog-comments .comment-reply-to:focus,
+.blog-comments .comment-reply-to:active {
   background-color: transparent;
+  color: {{ theme.typography.body_font.color }};
   text-decoration: underline;
-  color: {{ theme.buttons.button_text_hover_color.color }};
 }

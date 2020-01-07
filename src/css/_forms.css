@@ -25,12 +25,17 @@ form {
   text-decoration: none;
 }
 
-.hs-button:hover, .hs-button:focus, .hs-button:active {
-  background-color: {{ theme.buttons.button_bg_hover_color.color }};
-  border-color: {{ theme.buttons.button_bg_hover_color.color }};
+.hs-button:hover, .hs-button:focus {
+  background-color: {{ color_variant(theme.buttons.button_bg_color.color, -40) }};
+  border-color: {{ color_variant(theme.buttons.button_bg_color.color, -40) }};
 {# see "no form selected" note above #}
-  color: {{ theme.buttons.button_text_hover_color.color }};
+  color: {{ theme.buttons.button_text_color.color }};
   text-decoration: none;
+}
+
+.hs-button:active {
+  background-color: {{ color_variant(theme.buttons.button_bg_color.color, 40) }};
+  border-color: {{ color_variant(theme.buttons.button_bg_color.color, 40) }};
 }
 
 .hs-form label {

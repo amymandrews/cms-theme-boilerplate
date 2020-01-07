@@ -20,9 +20,14 @@ a {
   color: {{ theme.typography.link_color.color }};
   text-decoration: none;
 }
+
 a:hover, a:focus {
-  color: {{ theme.typography.link_hover_color.color }};
+  color: {{ color_variant(theme.typography.link_color.color, -40) }};
   text-decoration: underline;
+}
+
+a:active {
+  color: {{ color_variant(theme.typography.link_color.color, 40) }};
 }
 
 /* Headings */

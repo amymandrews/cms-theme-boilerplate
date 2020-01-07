@@ -49,15 +49,6 @@
           "color": "#0270E0",
           "opacity": 100
         }
-      },
-      {
-        "type": "color",
-        "name": "link_hover_color",
-        "label": "Link hover color",
-        "default": {
-          "color": "#0270E0",
-          "opacity": 100
-        }
       }
     ]
   },
@@ -79,24 +70,6 @@
         "type": "color",
         "name": "button_text_color",
         "label": "Button text color",
-        "default": {
-          "color": "#FFFFFF",
-          "opacity": 100
-        }
-      },
-      {
-        "type": "color",
-        "name": "button_bg_hover_color",
-        "label": "Button background hover color",
-        "default": {
-          "color": "#21222A",
-          "opacity": 100
-        }
-      },
-      {
-        "type": "color",
-        "name": "button_text_hover_color",
-        "label": "Button text hover color",
         "default": {
           "color": "#FFFFFF",
           "opacity": 100

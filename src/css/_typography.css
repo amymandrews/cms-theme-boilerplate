@@ -40,11 +40,11 @@ h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   line-height: 1.2;
-  font-style: {{ theme.typography.heading_font.styles.font-style }};
-  font-weight: {{ theme.typography.heading_font.styles.font-weight }};
+  font-style: {{ theme.typography.heading_font.styles|attr('font-style') }};
+  font-weight: {{ theme.typography.heading_font.styles|attr('font-weight') }};
   font-family: {{ theme.typography.heading_font.font }};
   color: {{ theme.typography.heading_font.color }};
-  text-decoration: {{ theme.typography.heading_font.styles.text-decoration }};
+  text-decoration: {{ theme.typography.heading_font.styles|attr('text-decoration') }};
   word-break: break-word;
 }
 

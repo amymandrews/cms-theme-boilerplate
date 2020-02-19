@@ -1,5 +1,5 @@
 {
   "label": "CMS Theme Boilerplate",
   "preview_path": "./templates/homepage.html",
-  "enableDomainStylesheets": false
+  "enable_domain_stylesheets": false
 }
